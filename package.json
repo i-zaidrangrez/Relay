@@ -1,0 +1,23 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "npm install --prefix Server && npm install --prefix Client && npm run build --prefix Client",
+    "start": "npm run start --prefix Server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-zaidrangrez/Relay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/i-zaidrangrez/Relay/issues"
+  },
+  "homepage": "https://github.com/i-zaidrangrez/Relay#readme"
+}
