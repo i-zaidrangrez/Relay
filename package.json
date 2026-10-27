@@ -7,7 +7,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "build" : "npm install --prefix Server && npm install --prefix Client && npm run build --prefix Client",
+    "build": "npm install --prefix Server && npm install --include=dev --prefix Client && npm run build --prefix Client",
     "start": "npm run start --prefix Server"
   },
   "repository": {
