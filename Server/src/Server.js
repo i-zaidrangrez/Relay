@@ -2,10 +2,12 @@ import express from 'express'
 import dotenv from 'dotenv'
 import path from 'path'
 import authRoutes from './routes/auth.routes.js'
+import connectDB from './lib/db.js'
 dotenv.config()
 
 const app = express()
 const __dirname = path.resolve()
+connectDB()
 
 const PORT = process.env.PORT
 
