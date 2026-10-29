@@ -8,6 +8,7 @@ dotenv.config()
 const app = express()
 const __dirname = path.resolve()
 connectDB()
+app.use(express.json())
 
 const PORT = process.env.PORT
 
